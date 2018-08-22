@@ -1,0 +1,42 @@
+create table masterCS(
+    Stu_id char(9) PRIMARY KEY,
+    FirstName VARCHAR(20),
+    LastName VARCHAR(20),
+    BirthDay VARCHAR(20),
+    Address VARCHAR(100),
+    MobileNo char(10),
+    Email VARCHAR(50),
+    Gender VARCHAR(6),
+    Semester VARCHAR(10)
+    );
+
+
+
+CREATE TABLE marksbus12
+(
+    Stu_id CHAR(9) PRIMARY KEY,
+    BS1007 FLOAT,
+    BS1008 FLOAT,
+    BS1009 FLOAT,
+    BS1010 FLOAT
+     
+);
+
+CREATE TABLE markscs12(
+    Stu_idCHAR( 9 ) PRIMARY KEY ,
+    CS1010 FLOAT,
+    CS1011 FLOAT,
+    CS1012 FLOAT,
+    CS1013 FLOAT
+);
+
+
+CREATE TABLE markseng12
+(
+    Stu_id CHAR(9) PRIMARY KEY,
+    EN1010 FLOAT,
+    EN1011 FLOAT,
+    EN1012 FLOAT,
+    EN1013 FLOAT
+     
+);
